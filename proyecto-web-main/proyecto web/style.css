@@ -1,0 +1,35 @@
+/*lupita es la classe que le da diseño en style*/
+.lupita {
+    width: 400px;
+    height: 40%;
+    position: center;
+    background: rgb(136, 0, 248);
+    padding: 30px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    margin-top: 25px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px rgb(0, 0, 0);
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(150deg, #003af7, #e00c0c);
+    height: 100vh;
+}
+.login-box input[type="button"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="button"]:hover {
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}

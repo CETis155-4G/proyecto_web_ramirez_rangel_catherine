@@ -1,0 +1,49 @@
+<!--El encabezado<!DOCTYPE html>indica el tipo de documento-->
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<!--esto le da el titulo de la pagina-->
+	<title>Inicio de sesión</title>
+    <!--le da el estilo al botton de crear cuenta-->
+	<style>
+		#crear-cuenta {
+			background-color: rgb(255, 84, 255);
+			color: rgb(0, 0, 0);
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<br></br>
+	<br></br>
+	<br></br>
+	<br></br>
+	<div class="lupita">
+	<h1 align="center">Inicio de sesión</h1>
+	<!--se utiliza para crear el foruario de la pagina -->
+	<form>
+<!--esto sirve para crear los "botones" que hacen su funcion abriendo las paginas, formularios y menú-->
+<!-- pone el formulario y texto en el medio de la pagina -->
+		<center>
+<!--son las etiquetas que sirven paradarle un valor-->			
+		<label for="usuario">Usuario:</label>
+		<input type="text" id="usuario" name="usuario"><br><br>
+		<label for="contrasena">Contraseña:</label>
+		<input type="password" id="contrasena" name="contrasena"><br><br>
+		<!--esto es para crear el boton -->
+		<button type="submit" id="crear-cuenta">Crear cuenta</button>
+		<input type="button" value="Iniciar Sesión" onclick="window.location.href='inicio.html'" />
+		<br></br>
+		<!-- esta parte ayuda a crear la pagina -->
+		¿olvido su contraseña? <a href="contraseña.html"><font color="#2ECC71">para recuperar cuenta</font></a> aquí
+	    </div>
+	    </center>
+
+	</form>
+</body>
+</html>

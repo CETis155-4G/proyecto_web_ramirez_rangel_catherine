@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(150deg, #003af7, #e00c0c);
+    height: 100vh;
+}
+.contraseña {
+    width: 400px;
+    height: 40%;
+    position: left;
+    background: rgb(136, 0, 248);
+    padding: 30px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    margin-top: 25px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px rgb(0, 0, 0);
+}
